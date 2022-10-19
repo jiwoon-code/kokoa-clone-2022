@@ -1,3 +1,3 @@
 # Kokoa Lcone 2022 Update
 
-css got so musch better!
+HTML & CSS are so much fun!
