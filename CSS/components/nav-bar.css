@@ -13,4 +13,8 @@
 }
 .nav__link {
   color: #2f363e;
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
 }
