@@ -13,6 +13,7 @@
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/open-post2.css";
 
 body {
   color: #2f363e;

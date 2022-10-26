@@ -42,6 +42,8 @@
 }
 .open-post {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .open-post__tilte {
   font-weight: 600;
@@ -74,4 +76,37 @@
 }
 .open-post__member-status {
   color: #ff86d0;
+}
+.open-post__photo {
+  position: relative;
+}
+.open-post__photo img {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+}
+.open-post__photo i {
+  display: block;
+  top: -10px;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+.open-post__heart-count span {
+  margin-left: 3px;
+}
+.void-space {
+  display: flex;
+  justify-content: center;
+  height: 10px;
+  border-bottom: var(--main-border);
 }
