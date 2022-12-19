@@ -4,12 +4,13 @@
   justify-content: center;
   padding: var(--horizontal-space);
   margin-bottom: 15px;
+  color: var(--blue);
 }
 .alt-header__column {
   width: 33%;
 }
 .alt-header__title {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
 }
 .alt-header__column:first-child {

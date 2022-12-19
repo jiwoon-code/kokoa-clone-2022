@@ -1,6 +1,7 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
+  color: var(--blue);
 }
 .find-icons__icon {
   display: flex;
@@ -21,7 +22,7 @@
 }
 .recommended-friends__title {
   font-size: 14px;
-  color: var(--best-gray);
+  color: var(--best-blue);
 }
 .recommended-friends__text {
   display: block;
@@ -29,12 +30,12 @@
   text-align: center;
   margin: 85px 0px;
   font-size: 14px;
-  color: var(--best-gray);
+  color: var(--best-blue);
 }
 .open-chat__header {
   display: flex;
   justify-content: space-between;
-  color: var(--best-gray);
+  color: var(--best-blue);
   margin-bottom: 25px;
 }
 .open-chat__header span {
@@ -48,10 +49,12 @@
 .open-post__tilte {
   font-weight: 600;
   margin-bottom: 7px;
+  color: var(--blue);
 }
 .open-post__hashtags {
   text-transform: uppercase;
   opacity: 0.6;
+  color: var(--best-blue);
 }
 .open-post__members {
   margin-top: 7px;

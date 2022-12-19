@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .user-component,
@@ -23,8 +24,10 @@
   font-size: 15px;
 }
 .user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+  background-color: white;
 }
 .user-component__avatar--sm {
   width: 60px;
