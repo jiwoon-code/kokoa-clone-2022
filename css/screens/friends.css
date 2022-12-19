@@ -8,7 +8,7 @@
   margin-top: -15px;
 }
 #friends-display-link i {
-  color: var(--best-gray);
+  color: var(--best-blue);
 }
 .friends-screen {
   padding: 0px var(--horizontal-space);
@@ -22,7 +22,7 @@
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color: var(--best-gray);
+  color: var(--best-blue);
 }
 
 @keyframes hideSplashScreen {
