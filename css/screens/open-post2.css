@@ -7,9 +7,11 @@
 .open-post2__tilte {
   font-weight: 600;
   margin-bottom: 7px;
+  color: var(--blue);
 }
 .open-post2__hashtags {
   opacity: 0.6;
+  color: var(--best-blue);
 }
 .open-post2__members {
   margin-top: 7px;

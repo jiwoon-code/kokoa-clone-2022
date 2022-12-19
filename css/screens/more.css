@@ -5,6 +5,7 @@
 .user-identity__column {
   display: flex;
   align-items: center;
+  color: var(--blue);
 }
 .user-identity__column img {
   margin-right: 15px;
@@ -40,6 +41,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
+  color: var(--blue);
 }
 .more-icons__icon {
   display: flex;
@@ -57,6 +59,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
+  color: var(--blue);
 }
 .more-icons__column-icon2,
 .more-icons__column-icon {
@@ -85,6 +88,7 @@
 }
 .more-suggestion__title {
   margin-bottom: 30px;
+  color: var(--blue);
 }
 .more-suggestion__icons {
   display: flex;
@@ -92,15 +96,17 @@
 .more-suggestion__icon {
   margin-right: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  color: var(--blue);
+  cursor: pointer;
 }
 .more-suggestion__icon-image {
   width: 45px;
   height: 45px;
   border-radius: 10px;
-  background-color: var(--yellow);
+  background-color: var(--blue);
   display: flex;
   justify-content: center;
   align-items: center;
